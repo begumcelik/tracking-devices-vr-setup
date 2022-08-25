@@ -38,7 +38,7 @@ The project is developed to track connected devices in the VR setup. In general,
 - [AutoIt](https://www.autoitscript.com/site/) script is implemented to automate the tracking system.
 - AutoIt script runs the exe file in every 15 seconds and decodes the JSON output. 
 - If the number of connected base stations is less than the requirement, HTTP requests are sent to turn off-turn on the smart plug in which the VR headset is plugged.
-- In order to use this AutoIt sript you should add json and binary call libraries into your ProgramFiles. `C:\Program Files\AutoIt\Libraries`
+- In order to use this AutoIt sript you should add `Json.au3` and `BinaryCall.au3` into your ProgramFiles. `C:\Program Files\AutoIt\Libraries`
 - Then, open the `restart-vr-setup.au3` in AutoIt editor and change the path to your exe.
 - Built the watchdog and include it in your autostart folder, if you would like to use it all the time. 
 
