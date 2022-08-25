@@ -42,4 +42,8 @@ The project is developed to track connected devices in the VR setup. In general,
 - Then, open the `restart-vr-setup.au3` in AutoIt editor and change the path to your exe.
 - Built the watchdog and include it in your autostart folder, if you would like to use it all the time. 
 
+## Contact
+begumcelik@sabanciuniv.edu
+
+## License 
 
