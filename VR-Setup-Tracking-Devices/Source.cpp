@@ -9,7 +9,7 @@ vr::IVRSystem* vr_context;
 
 using namespace std;
 
-// Tracked devices array keeps the record of connected device type
+// Tracked devices array keeps the record of connected device's type
 string tracked_device_type[vr::k_unMaxTrackedDeviceCount];
 
 // Initialize JSON output
