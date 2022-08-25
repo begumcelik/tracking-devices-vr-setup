@@ -9,7 +9,7 @@ The project is developed to track connected devices in the VR setup. In general,
 ## Step 1: Tracking Devices in the VR Setup
 - OpenVR API is implemented to keep track of connected devices in the VR Setup.
 - Executable can be found in the x64 directory. openvr_api.dll should be placed along with the exe file in order to run the app.
-- Application outputs JSON file as such: 
+- Application outputs JSON file as such: <br />
 { <br />
   HMD: #0 disconnected; #1 connected <br />
   Base Stations: #number of connected base stations <br />
