@@ -10,11 +10,11 @@ The project is developed to track connected devices in the VR setup. In general,
 - OpenVR API is implemented to keep track of connected devices in the VR Setup.
 - Executable can be found in the x64 directory. openvr_api.dll should be placed along with the exe file in order to run the app.
 - Application outputs JSON file as such: 
-{
-  HMD: #0 disconnected; #1 connected
-  Base Stations: #number of connected base stations
-  Controllers #number of connected controllers
-}
+{ <br />
+  HMD: #0 disconnected; #1 connected <br />
+  Base Stations: #number of connected base stations <br />
+  Controllers #number of connected controllers <br />
+} <br />
 
 ## Step 2: Configuring ESP Devices
 - Sonoff S26 Wi-Fi Smart Plugs are used in the VR setup.
