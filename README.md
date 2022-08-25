@@ -16,7 +16,7 @@ The project is developed to track connected devices in the VR setup. In general,
 - If the HMD is connected and SteamVR is running succesfully, then it will check how many base stations and controllers are connected.
 
 ### Download
-- Executable can be found under the x64 directory.
+- Executable `vr-tracker.exe` can be found under the x64 directory.
 - `openvr_api.dll` should be placed along with the exe file in order to run the app.
 
 ### Output
