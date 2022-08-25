@@ -12,7 +12,14 @@ The project is developed to track connected devices in the VR setup. In general,
 
 ## Step 1: Tracking Devices in the VR Setup
 - OpenVR API is implemented to keep track of connected devices in the VR Setup.
-- Executable can be found in the x64 directory. openvr_api.dll should be placed along with the exe file in order to run the app.
+- The VR Tracker application will check whether HMD is connected or not. 
+- If the HMD is connected and SteamVR is running succesfully, then it will check how many base stations and controllers are connected.
+
+### Download
+- Executable can be found under the x64 directory.
+- `openvr_api.dll` should be placed along with the exe file in order to run the app.
+
+### Output
 - Application outputs JSON file as such: <br />
 ```
     { 
@@ -25,10 +32,14 @@ The project is developed to track connected devices in the VR setup. In general,
 ## Step 2: Configuring ESP Devices
 - Sonoff S26 Wi-Fi Smart Plugs are used in the VR setup.
 - [ESP Home](https://esphome.io/index.html) Dashboard is used to configure ESP modules inside the wifi plugs.
+- Copy sonoff.yaml file and paste it into your ESP Home dashboard, and install it into your wifi device. (and boot it!)
 
 ## Step 3: Automating the system
-- [AutoIt](https://www.autoitscript.com/site/) script is used to automate the tracking system.
-- AutoIt script runs the exe file in every 15 seconds and decodes the JSON output. If the number of connected base stations are les then requirement, HTTP requests are sent to turn off-turn on the smart plug in which the VR headset is plugged in.
-- Then, the script is built and the watchdog is added to autostart. 
-- In order to use this AutoIt sript you should add json and binary call libraries into your ProgramFiles. (C:\Program Files\AutoIt\Libraries)
+- [AutoIt](https://www.autoitscript.com/site/) script is implemented to automate the tracking system.
+- AutoIt script runs the exe file in every 15 seconds and decodes the JSON output. 
+- If the number of connected base stations is less than the requirement, HTTP requests are sent to turn off-turn on the smart plug in which the VR headset is plugged.
+- In order to use this AutoIt sript you should add json and binary call libraries into your ProgramFiles. `C:\Program Files\AutoIt\Libraries`
+- Then, open the `restart-vr-setup.au3` in AutoIt editor and change the path to your exe.
+- Built the watchdog and add it to your autostart folder, if you would like to use it all the time. 
+
 
