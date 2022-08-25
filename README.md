@@ -40,6 +40,6 @@ The project is developed to track connected devices in the VR setup. In general,
 - If the number of connected base stations is less than the requirement, HTTP requests are sent to turn off-turn on the smart plug in which the VR headset is plugged.
 - In order to use this AutoIt sript you should add json and binary call libraries into your ProgramFiles. `C:\Program Files\AutoIt\Libraries`
 - Then, open the `restart-vr-setup.au3` in AutoIt editor and change the path to your exe.
-- Built the watchdog and add it to your autostart folder, if you would like to use it all the time. 
+- Built the watchdog and include it in your autostart folder, if you would like to use it all the time. 
 
 
