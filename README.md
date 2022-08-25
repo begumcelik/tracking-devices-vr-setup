@@ -8,3 +8,10 @@ The project is developed to track connected devices in the VR setup. In general,
 
 ## Step 1: Tracking Devices in the VR Setup
 - 
+
+## Step 2: Configuring ESP Devices
+
+## Step 3: Automating the system
+
+- AutoIt
+- 
