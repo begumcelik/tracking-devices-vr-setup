@@ -2,9 +2,9 @@
 
 The project is developed to track connected devices in the VR setup. In general, connections in the VR setup are not stable enough and necessitate human interference to restart the system. To solve this problem, tracked device information was gathered to automate the system using smart plugs. The [OpenVR API](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) is implemented to check connected devices (HMD, Base Stations, Controllers). Since the OpenVR API allows you to interact with any Virtual Reality display, the project is compatible with all headset brands (Oculus, Mixed Reality, Vive, etc). This VR tracking project is implemented as an overlay application so that it can run with other VR applications simultaneously. 
 
-*Developed and tested in:
-HTC Vive Pro 2.
-Steam Index*
+*Tested with:
+*- HTC Vive Pro 2.
+*- Valve Index
 
 ##  Developer
 - Begüm Çelik
@@ -15,11 +15,11 @@ Steam Index*
 - Executable can be found in the x64 directory. openvr_api.dll should be placed along with the exe file in order to run the app.
 - Application outputs JSON file as such: <br />
 ```
-  { 
-    HMD: #0 disconnected; #1 connected 
-    Base Stations: #number of connected base stations 
-    Controllers #number of connected controllers 
-  } 
+    { 
+      HMD: #0 disconnected; #1 connected 
+      Base Stations: #number of connected base stations 
+      Controllers #number of connected controllers 
+    } 
 ```
 
 ## Step 2: Configuring ESP Devices
