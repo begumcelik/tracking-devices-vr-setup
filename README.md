@@ -4,7 +4,7 @@ The project is developed to track connected devices in the VR setup. In general,
 
 *Tested with:
 - HTC Vive Pro 2.
-- Valve Index*
+- Valve Index
 
 ##  Developer
 - Begüm Çelik
