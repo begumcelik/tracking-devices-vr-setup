@@ -83,7 +83,7 @@ int init_OpenVR()
 				}
 				else tracked_device_type[td] = "Other";
 
-				// Output tracked devices for debugging purpose 
+				// Output tracked devices for debugging 
 				//cout << "Tracking device " << td << " is connected " << endl;
 				//cout << "  Device type: " << td_type << "   Device Name: " << tracked_device_type[td] << endl;
 				
