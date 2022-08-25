@@ -11,11 +11,11 @@ The project is developed to track connected devices in the VR setup. In general,
 - Executable can be found in the x64 directory. openvr_api.dll should be placed along with the exe file in order to run the app.
 - Application outputs JSON file as such: <br />
 ```
-{ <br />
-&emsp; HMD: #0 disconnected; #1 connected <br />
-&emsp;  Base Stations: #number of connected base stations <br />
-&emsp;  Controllers #number of connected controllers <br />
-} <br />
+  { 
+    HMD: #0 disconnected; #1 connected 
+    Base Stations: #number of connected base stations 
+    Controllers #number of connected controllers 
+  } 
 ```
 
 ## Step 2: Configuring ESP Devices
