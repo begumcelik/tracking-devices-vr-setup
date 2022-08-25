@@ -21,6 +21,8 @@ The project is developed to track connected devices in the VR setup. In general,
 - [ESP Home](https://esphome.io/index.html) Dashboard is used to configure ESP modules inside the wifi plugs.
 
 ## Step 3: Automating the system
-- [AutoIt](https://www.autoitscript.com/site/) is used to automate the tracking system.
+- [AutoIt](https://www.autoitscript.com/site/) script is used to automate the tracking system.
 - AutoIt script runs the exe file in every 15 seconds and decodes the JSON output. If the number of connected base stations are les then requirement, HTTP requests are sent to turn off-turn on the smart plug in which the VR headset is plugged in.
 - Then, the script is built and the watchdog is added to autostart. 
+- In order to use this AutoIt sript you should add json and binary call libraries into your ProgramFiles. (C:\Program Files\AutoIt\Libraries)
+
