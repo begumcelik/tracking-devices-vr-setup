@@ -23,8 +23,8 @@ The project is developed to track connected devices in the VR setup. In general,
 - Application outputs JSON file as such: <br />
 ```
     { 
-      HMD: #0 disconnected; #1 connected 
-      Base Stations: #number of connected base stations 
+      HMD: #0 disconnected; #1 connected, 
+      Base Stations: #number of connected base stations, 
       Controllers #number of connected controllers 
     } 
 ```
