@@ -106,5 +106,5 @@ switch:
 begumcelik@sabanciuniv.edu
 
 ## License 
-[MIT License link](https://github.com/begumcelik/tracking-devices-vr-setup/blob/main/LICENSE)
+[MIT](https://github.com/begumcelik/tracking-devices-vr-setup/blob/main/LICENSE)
 
