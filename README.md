@@ -6,6 +6,9 @@ The project is developed to track connected devices in the VR setup. In general,
 - HTC Vive Pro 2
 - Valve Index
 
+*Developed in:*
+- Windows 10
+
 ##  Supervisor
 - Marc Schütze
 
