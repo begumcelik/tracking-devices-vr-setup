@@ -1,10 +1,13 @@
 # Tracking Devices in the VR Setup and Automating Restart
 
-The project is developed to track connected devices in the VR setup. In general, connections in the VR setup are not stable enough and necessitate human interference to restart the system. To solve this problem, tracked device information was gathered to automate the system using smart plugs. The [OpenVR API](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) is implemented to check connected devices (HMD, Base Stations, Controllers). Since the OpenVR API allows you to interact with any Virtual Reality display, the project is compatible with all headset brands (Oculus, Mixed Reality, Vive, etc). This VR setup tracking project is implemented as an overlay application so that it can run with other VR applications simultaneously. 
+The project is developed to track connected devices in the VR setup. In general, connections in the VR setup are not stable enough and necessitate human interference to restart the system. Especially in case of long run-time of VR app such as in exhibition setups, restarting the app become necessity. To solve this problem, tracked device information was gathered to automate the system using smart plugs. The [OpenVR API](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) is implemented to check connected devices (HMD, Base Stations, Controllers) and SteamVR connection. Since the OpenVR API allows you to interact with any Virtual Reality display, the project is compatible with all headset brands (Oculus, Mixed Reality, Vive, etc). This VR setup tracking project is implemented as an overlay application so that it can run with other VR applications simultaneously. 
 
 *Tested with:*
 - HTC Vive Pro 2
 - Valve Index
+
+##  Supervisor
+- Marc Schütze
 
 ##  Developer
 - Begüm Çelik
