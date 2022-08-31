@@ -1,6 +1,6 @@
 # Tracking Devices in the VR Setup and Automating Restart
 
-The project is developed to track connected devices in the VR setup. In general, connections in the VR setup are not stable enough and necessitate human interference to restart the system. Especially in the case of long run-time of VR apps such as in exhibition setups, restarting the setup becomes a necessity. To solve this problem, tracked device information was gathered to automate the system using smart plugs. The [OpenVR API](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) is implemented to check connected devices (HMD, Base Stations, Controllers) and SteamVR connection. Since the OpenVR API allows you to interact with any Virtual Reality display, the project is compatible with all headset brands (Oculus, Mixed Reality, Vive, etc). This VR setup tracking project is implemented as an overlay application so that it can run with other VR applications simultaneously. 
+The project is developed to track connected devices in the VR setup. In general, connections in the VR setup are not stable enough and necessitate human interference to restart the system. Especially in the case of the long run-time of VR apps such as in exhibition setups, restarting the setup becomes a necessity. To solve this problem, tracked device information was gathered to automate the system using smart plugs. The [OpenVR API](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) is implemented to check connected devices (HMD, Base Stations, Controllers) and SteamVR connection. Since the OpenVR API allows you to interact with any Virtual Reality display, the project is compatible with all headset brands (Oculus, Mixed Reality, Vive, etc). This VR setup tracking project is implemented as an overlay application so that it can run with other VR applications simultaneously. 
 
 *Tested with:*
 - HTC Vive Pro 2
@@ -9,8 +9,10 @@ The project is developed to track connected devices in the VR setup. In general,
 *Developed in:*
 - Windows 10
 
+* This project is developed in ZKM Karlsruhe.
+
 ##  Supervisor
-- Marc Schütze
+- [Marc Schütze](https://github.com/scharc)
 
 ##  Developer
 - Begüm Çelik
