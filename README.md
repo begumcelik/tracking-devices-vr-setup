@@ -9,7 +9,7 @@ The project is developed to track connected devices in the VR setup. In general,
 *Developed in:*
 - Windows 10
 
-* This project is developed in ZKM Karlsruhe.
+_This project is developed in ZKM Karlsruhe._
 
 ##  Supervisor
 - [Marc Schütze](https://github.com/scharc)
