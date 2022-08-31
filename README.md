@@ -39,7 +39,7 @@ The project is developed to track connected devices in the VR setup. In general,
 ## Step 2: Configuring ESP Devices
 - Sonoff S26 Wi-Fi Smart Plugs are used in the VR setup.
 - [ESP Home](https://esphome.io/index.html) Dashboard is used to configure ESP modules inside the wifi plugs.
-- Copy sonoff.yaml file and paste it into your ESP Home dashboard, and install it into your wifi device. (and boot it!)
+- Copy sonoff.yaml script and paste it into your ESP Home dashboard, and install it into your wifi device. (and boot it!)
 ```
 # Basic Config
 esphome:
